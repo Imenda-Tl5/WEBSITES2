@@ -1,0 +1,218 @@
+.nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: white;
+  padding: 10px;
+  z-index: 100;
+
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    font-size:28px;
+    gap: 23px;
+    justify-content: space-between;
+}
+.logo{
+    margin-right: auto;
+}
+.logo h1{
+    color: blueviolet;
+    font-size: 43px;
+}
+.logo  h1 span{
+    color: black;
+}
+.nav button {
+    border: 1px solid blueviolet;
+    background-color: transparent;
+    padding: 7px 10px;
+    font-size: 21px;
+    color: rgb(159, 82, 231);
+    cursor: pointer;
+}
+
+.nav .cart-btn{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    font-size: 17px;
+    transition: .5s;
+}
+.signin-btn{
+    transition: .5s;
+}
+.nav Link{
+    width: 400px;
+}
+.nav .signin-btn:hover{
+    background-color: blueviolet;
+    color: white;
+    transition: .5s;
+
+}
+.nav .cart-btn svg{
+    transition: .5s;
+}
+.nav .cart-btn{
+    position: relative;
+}
+.cart-btn span{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+.nav .cart-btn svg:hover{
+    transition: .5s;
+    background-color: blueviolet;
+    fill: white;
+    border-radius: 50%;
+}
+.btns{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 20px;
+}
+.btns button p{
+height: 5px ;
+width: 25px;
+background-color: blueviolet;
+margin-top: 4px;
+}
+.btns .side-menu-btn{
+    border: none;
+    display: none;
+}
+.btns .side-menu-btn:hover p{
+    background: purple;
+    transition: .5s;
+}
+.nav .side-menu{
+    display: none;
+}
+.nav ul li{
+    border: 2px solid white;
+    padding: 5px 10px;
+}
+.nav ul li:hover{
+  border: 2px solid blueviolet;
+  color: blueviolet;
+  transition: .5s;
+  border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:780px) {
+    .nav .nav-links{
+        display: none;
+    }
+    .logo{
+        margin-left: 40px;
+    }
+    .nav .side-menu-btn{
+        display: block;
+    }
+    .nav .side-menu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 90px;
+        right:0 ;
+        height: 250px;
+        background-color: blueviolet;
+        width: 100%;
+        align-items: center;
+        padding-left: 20px;
+        padding-top: 23px;
+        padding-bottom: 23px;
+  
+    }
+    .nav .side-menu li{
+        color: white;
+        padding: 10px;
+        width: 200px;
+        display: flex;
+        justify-content: center;
+        margin-right: 23px;
+    }
+    .nav .side-menu li:hover{
+        background-color: white;
+        color: blueviolet;
+        border-radius: 12px ;
+        
+    }
+    .nav .side-menu{
+        transition: .5s;
+    }
+    .nav .side-menu.inactive{
+        transform: translatey(-100%);
+        transition: .5s;
+        height: 0;
+        padding-top: 0px;
+        padding-bottom: 0px;
+  
+    }
+    .side-menu li{
+        transition: .5s;
+        width: 100%;
+    }
+    .side-menu.inactive li{
+        display: none;
+        transition: .5s;
+
+    }
+}
+@media (max-width:560px){
+.nav .logo{
+    margin-left: -10px;
+}
+    .nav .btns,.logo{
+    transform: scale(.8);
+}
+.nav .btns {
+    margin-left: 60px;
+}    
+}
+
+@media (max-width:460px){
+     .nav{
+        padding-right: 100px;
+     }
+        .nav .btns,.logo{
+        transform: scale(.65);
+    }
+    .nav .btns {
+        margin-right: auto;
+    }    
+    }
+
+
+

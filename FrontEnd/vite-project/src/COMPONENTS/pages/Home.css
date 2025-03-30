@@ -1,0 +1,89 @@
+.home{
+    padding: 20px 40px;
+    margin: 30px 30px;
+    overflow: hidden;
+}
+.hero{
+    display: flex;
+justify-content: center;
+
+}
+.left{
+    width: 30%;
+
+}
+.left h1{
+    color: rgb(57, 4, 107);
+    margin-bottom: 20px;
+}
+.left p{
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+.left button{
+    padding: 7px 10px;
+    color: #faf5f5;
+    background-color: purple;
+    font-size: 19px;
+    display: flex;
+    font-weight: 700;
+    text-transform: capitalize;
+
+    align-items: center;
+    gap: 3px;
+border: none;
+}
+.right{
+    width: 60%;
+}
+.right img{
+    width: 100%;
+    object-fit: contain;
+}
+.menu{
+    overflow-x: hidden;
+}
+.menu .header{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(137, 43, 226, 0.658) ;
+    flex-direction: column;
+    align-items: center;
+    color: #faf5f5;
+    font-size: 30px;
+    width: 100%;
+  font-weight: 200;
+  padding: 20px;
+  border-radius: 1px 1px 19px 19px;
+  margin-bottom: 30px;
+}
+.menu-categories{
+    overflow-x: scroll;
+}
+
+
+.menu .header span{
+    font-weight: 600;
+    color: rgb(28, 2, 53);
+}
+.menu-categories{
+    display: flex;
+    padding: 10px;
+    margin: 30px 10px;
+margin-top: 0;
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+}
+.category-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+font-size: 21px;
+color: rgb(24, 0, 46);
+
+}
+.menu-categories img{
+    width: 150px;
+}

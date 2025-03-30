@@ -1,0 +1,121 @@
+.login{
+background-color: rgba(0, 0, 0, 0.349);
+height: 100vh;
+width: 100vw;
+position: fixed;
+overflow: hidden;    
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.login-container{
+  position: absolute;
+  background-color: white;
+  flex-direction: column;
+
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding:  30px;
+  border-radius: 12px;
+}
+
+.header .log-in-head{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    gap: 90px;
+
+}
+.input-fields{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px; 
+    width: 300px;
+    padding:0 20px;   
+}
+.input-fields input{
+    height: 50px;
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid blueviolet;
+    border-radius: 7px;
+}
+.close:hover{
+    transition: .5s;
+    color: red;
+    cursor: pointer;
+}
+
+.info{
+    margin-top: 20px;
+    display: flex;
+   flex-direction: column;
+   gap: 10px;
+  width: 100%;
+}
+.info p{
+    width: 70%;
+}
+.info p span{
+    color: purple;
+    text-transform: capitalize;
+}
+.info p span:hover{
+   color:blueviolet;
+   font-weight:800;
+   cursor: pointer;
+}
+.info button{
+background-color: blueviolet;
+color: white;
+width: 100%;
+padding: 7px 10px;
+font-size: 19px;
+text-transform: capitalize;
+border: 2px solid blueviolet;
+font-weight: 800;
+cursor: pointer;
+transform: .5s;
+}
+.info button:hover{
+    background-color: white;
+    color: rgb(173, 92, 248);
+    transform: .5s;
+    border: 2px solid blueviolet;
+}
+@media (max-width:780px) {
+
+    .login-container{
+        position: absolute;
+        background-color: white;
+        flex-direction: column;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:  20px;
+        border-radius: 12px;
+      }
+    
+}
+@media (max-width:305px) {
+    .login-container{
+        position: absolute;
+        background-color: white;
+        flex-direction: column;
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding:  20px;
+        border-radius: 12px;
+      }
+}
+

@@ -1,0 +1,70 @@
+.hero{
+    padding: 30px 40px;
+}
+
+.hero .company-info{
+    display: flex;
+    justify-content: space-between;
+  align-items: flex-start;
+}
+.company-info .home-header{
+margin-top: 30px;
+margin-left: 50px;
+}
+.home-header h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: rgb(21, 1, 39);
+}
+.home-header h3{
+    width: 191px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    margin-left: 0;
+}
+.home-header h3 span{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(68, 2, 68);
+}
+
+
+
+@media (max-width:888px) {
+    .hero .company-info{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    
+    }
+    .company-info img{
+        margin-left: 40px;
+     
+    }
+    .home-header {
+        align-self: flex-start;
+    }
+    .home-header h3{
+        width:60%;
+        margin-bottom: 5px;
+        font-weight: 500;
+        margin-left: 10px;
+    }   
+}
+@media (max-width:670px) {
+    .company-info img{
+        transform: scale(.8);
+        margin-left: -60px;
+        padding-right: 60px;
+  z-index: 1;
+  position: relative;
+    }
+}
+@media (max-width:520px) {
+    .company-info img{
+        transform: scale(.6);
+        margin-left: -160px;
+        padding-right: 60px;
+        z-index: 10;
+    }
+}

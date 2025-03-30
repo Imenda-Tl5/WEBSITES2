@@ -1,0 +1,76 @@
+.about {
+    background-color: #f9f9ff;
+    color: #5a4a69; /* Light dark purple */
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .about .container {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .about h1 {
+    font-size: 42px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    color: #4a3a57; /* Slightly darker purple for headers */
+  }
+  
+  .about h2 {
+    color: #5a4a69;
+    margin-top: 30px;
+    font-size: 28px;
+    margin-left: 70px;
+
+  }
+  
+  .about p {
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: start;
+    margin-bottom: 15px;
+  }
+  .about .container .why{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f0e6ff;
+    width: 100vw;
+    margin-left: -200px;
+  text-align: left;
+  padding-bottom: 40px;
+  }
+  
+
+  
+  .about ul li {
+    color:#fff;
+    padding: 12px;
+    margin: 5px 0;
+    border-radius: 5px;
+    font-size: 21px;
+    width: 80vw;
+    background-color: #5a4a69;
+  }
+  
+  .explore-btn {
+    background-color: #8a2be2;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: 0.3s;
+  }
+  
+  .explore-btn:hover {
+    background-color: #4b0082;
+  }
+  .about .container section {
+    display: flex;
+   flex-direction: column;
+   align-items:flex-start;
+  }

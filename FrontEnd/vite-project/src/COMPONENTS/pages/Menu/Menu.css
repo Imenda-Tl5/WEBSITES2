@@ -1,0 +1,92 @@
+.menu{
+  background-color: blueviolet;
+}
+.menu h1{
+  color: white;
+  padding: 18px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ font-size: 39px;
+ text-transform: uppercase;
+ gap: 3px;
+}
+h1 button{
+  background-color: blueviolet;
+  color:white;
+  padding: 8px 10px;
+  border: 2px solid white;
+  transition: .5s;
+  font-size: 21px;
+  cursor: pointer;
+}
+h1 button:hover{
+  background-color: white;
+  color:blueviolet;
+  border: 2px solid blueviolet;
+
+}
+h1 .active{
+  background-color: white;
+  color:blueviolet;
+  border: 2px solid blueviolet;
+}
+.menu h1 span{
+  border: 3px solid white;
+  padding: 7px;
+}
+.menu-container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px ;
+overflow-x: scroll;
+width: 100%;
+background-color: blueviolet;
+}
+.menu-container p{
+  color: white;
+font-weight: 800;
+text-transform: capitalize;
+font-size: 21px;
+}
+.menu-item{
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 12px;
+  border: 2px solid blueviolet;
+  padding: 10px;
+  transition: .5s;
+}
+.menu-item img{
+  height: 90px;
+  width: 90px;
+}
+.menu-item:hover{
+  border: 2px solid white;
+  cursor: pointer;
+  color: blueviolet;
+  background-color: white;
+  border-radius: 8px;
+  transition: .5s;
+}
+.menu-item:hover p{
+  color: blueviolet;
+}
+.menu-item.active{
+
+  
+  border: 2px solid white;
+  cursor: pointer;
+  color: blueviolet;
+  background-color: white;
+  border-radius: 8px;
+  transition: .5s;
+
+
+}
+.menu-item.active p{
+  color: blueviolet;
+}
